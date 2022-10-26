@@ -42,9 +42,9 @@ Week9	Aidan
 Aidan Dullaghan
 
 # Rockstars
-<>
+
 Conor P. McGeoghegan L00151915
-<>
+
 
 # Project Deadline
 Refer to BB for deadlines
@@ -113,16 +113,16 @@ Datastore for persistence
 
 # Social Contract
 # Meetings
-Stand-ups will occur on Every <<Date/Time >> during class and <<Date/Time>> using Automated bot.
-The order that people give their updates will be based on <<specify how you chose the order>> of those present at the meeting.
+Stand-ups will occur on Every Wednesday at 11.30 during class.
+The order that people give their updates will be based on clockwise order from the scrum master of those present at the meeting.
 Updates will be in the form: What I've done, Impediments, What I plan to do.
 Sprint planning will occur <<Day/time>> at the end of our sprint <in person/which tool?>.
-Please add and update items within <<issue management tool>> a prior to the sprint planning session.
+Please add and update items within Github Project Board prior to the sprint planning session.
 Sprint retro will at the end of our sprint on <<Date/Time>> (timebox retro for 15 minutes, to be organised by the scrum master).
 The order that people present their sprint retro updates will be based on <<specify how you chose the order>> of those present at the meeting.
 Points raised in the sprint retro will be noted and posted on the slack channel by the Scrum Master. The Scrum Master is rotated per team member every week.
-Backlog refinement will happen on <<date/time>> during our sprint.
-Task estimation will be done using <<specify tool/mechanism>>. 
+Backlog refinement will happen on Github during our sprint.
+Task estimation will be done using Poker Planning with Slack. 
 Come prepared to meetings.
 Be on time for Stand Ups and meetings.
 Mobile phones on silent.
