@@ -34,7 +34,7 @@ Our product will be delivered using an Agile methodology that embraces the DevOp
 
 # Rockstars
 <>
-<>
+Conor P. McGeoghegan L00151915
 <>
 
 # Project Deadline
@@ -54,7 +54,7 @@ Named queries and database triggers for security
 Regex for cleansing and validation of data before sending to the database.
 
 # Useful Links
-Project Slack: <>
+Project Slack: < https://app.slack.com/client/T0419S2HV9B/C046JJADCHY >
 GitHub: <>
 Jira: <>
 
