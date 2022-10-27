@@ -53,7 +53,7 @@ Refer to BB for deadlines
 Clean and simple design
 User access levels (client, administrator)
 Includes at least one self developed api and one webservice
-To be run over <specify platform>
+To be run over: IDE-VS Code, Database-PHPMyAdmin, Language-JS
 
 # Frameworks
 Database
