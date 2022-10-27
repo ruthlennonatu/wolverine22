@@ -71,17 +71,18 @@ Jira: <>
 For more information visit our other sections
 
 # Section	Description
-Process	Describes the companies process
-Project Log	Log of project activities
-Costings	Overview of the project cost
-Architecture	Outlines the architecture
-Environments	Overview of the environment set-up
-DR Plan	Disaster Recovery Plan and procedures
-Requirements	Overview of the requirements for the project
-SLAs	Service level agreements
-Risk Management	How we manage risk
-Security	Overview of security
-Project Log	Team log for the project
+
+This project aims create a pipeline for an online web application.
+The web application will manage Wolverine Fitness all over the world.
+Customer can register on the website with thier personal details along with their age group and their abilities.
+The customer should not be able to edit their information after registration.
+The administrator should have access to customer information and also be able to edit customer information.
+The website should be able to take the details and abilities of the customers and suggest suitable classes for them.
+The web application should display all the avilable groups of fitness classes in Wolverine Fitness.
+The web application should also display the available workshops in Wolverine Fitness.
+The web application should also display the most pupular product (Boxing Classes) in Wolverine Fitness.
+The web application should allow the customers to book fitness classes.
+The system need to take into account the privacy and security requirements when developing the web application
 
 # Risk Register
 These are the current Risks on the project, re-aligned on a weekly basis
