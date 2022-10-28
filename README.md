@@ -84,6 +84,8 @@ The web application should also display the most pupular product (Boxing Classes
 The web application should allow the customers to book fitness classes.
 The system need to take into account the privacy and security requirements when developing the web application
 
+The application will have multiple pages such as a login/registration page, home page, user's page, classes and workshop page and payment page
+
 # Risk Register
 These are the current Risks on the project, re-aligned on a weekly basis
 
