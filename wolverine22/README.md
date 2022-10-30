@@ -37,12 +37,14 @@ Week 7	Conor P. McGeoghegan (L00151915) |
 Week 8	Martin Benchi (L00162530) |
 Week 9	Aidan Dullaghan (L00155144) |
 
+
 # Product Owner
 Aidan Dullaghan
 
 # Rockstars
 
 | Conor P. McGeoghegan (L00151915) |
+
 
 # Project Deadline
 Refer to BB for deadlines
