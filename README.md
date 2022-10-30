@@ -117,6 +117,10 @@ Datastore for persistence
 # Agile project management methods/principles (jira)
 
 # Social Contract
+To use Agile methodoligies in the project at all times 
+
+
+
 # Meetings
 Stand-ups will occur on Every Wednesday at 11.30 during class.
 The order that people give their updates will be based on clockwise order from the scrum master of those present at the meeting.
