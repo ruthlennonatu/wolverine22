@@ -39,11 +39,12 @@ Week9	Aidan
 
 
 # Product Owner
-<>
+Aidan Dullaghan
 
 # Rockstars
 <>
 Conor P. McGeoghegan L00151915
+Aidan Dullaghan l00155144
 <>
 
 # Project Deadline
@@ -71,17 +72,7 @@ Jira: <>
 For more information visit our other sections
 
 # Section	Description
-Process	Describes the companies process
-Project Log	Log of project activities
-Costings	Overview of the project cost
-Architecture	Outlines the architecture
-Environments	Overview of the environment set-up
-DR Plan	Disaster Recovery Plan and procedures
-Requirements	Overview of the requirements for the project
-SLAs	Service level agreements
-Risk Management	How we manage risk
-Security	Overview of security
-Project Log	Team log for the project
+in this section each person in the team had to do 10 user storys each about our choosen project then we had to put each storys on planning poker and each person has to vote 1-5 on each user story also each person had to update there section of the readme file  
 
 # Risk Register
 These are the current Risks on the project, re-aligned on a weekly basis
