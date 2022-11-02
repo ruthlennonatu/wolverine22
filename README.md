@@ -42,7 +42,7 @@ Aidan Dullaghan
 
 # Rockstars
 
-| Conor P. McGeoghegan (L00151915) |
+| Conor P. McGeoghegan (L00151915) | Gavin Gallagher (L00134231) | Muhammad Abdullah (L00171275) | Martin Benchi Acheampong (L00162530) | Eoghan Doherty (L00159026) | Aoibheann Sims (L00150064) | Aidan Dullaghan (L00155144) | Gary Harvey (L00143357) | Daithi Mullaney (L00157752) |
 
 # Project Deadline
 Refer to BB for deadlines
