@@ -73,20 +73,7 @@ Jira: <>
 For more information visit our other sections
 
 # Section	Description
-
-This project aims create a pipeline for an online web application.
-The web application will manage Wolverine Fitness all over the world.
-Customer can register on the website with thier personal details along with their age group and their abilities.
-The customer should not be able to edit their information after registration.
-The administrator should have access to customer information and also be able to edit customer information.
-The website should be able to take the details and abilities of the customers and suggest suitable classes for them.
-The web application should display all the avilable groups of fitness classes in Wolverine Fitness.
-The web application should also display the available workshops in Wolverine Fitness.
-The web application should also display the most pupular product (Boxing Classes) in Wolverine Fitness.
-The web application should allow the customers to book fitness classes.
-The system need to take into account the privacy and security requirements when developing the web application
-
-The application will have multiple pages such as a login/registration page, home page, user's page, classes and workshop page and payment page
+In this section each person in the team had to do 10 user storys each about our choosen project then we had to put each storys on planning poker and each person has to vote 1-5 on each user story also each person had to update there section of the readme file 
 
 # Risk Register
 These are the current Risks on the project, re-aligned on a weekly basis
