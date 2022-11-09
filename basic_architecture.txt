@@ -1,0 +1,13 @@
+Basic architecture of the Wolverine Booking System
+
+-
+-
+Client/End User => mobile device or web page (Can create account - View Schedule - Book/Cancel classes - pay membership)
+-
+- {information securely sent to management system}
+-
+Customer/owner => management system (Manage Client lists, Edit Schedules, Message clients, issue refunds)
+-
+- {Security, Maintenance, updates}
+-
+Database/Cloud => Customer information (including payment info) is stored in Secure
