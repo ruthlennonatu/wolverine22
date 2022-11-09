@@ -125,8 +125,10 @@ Mobile phones on silent.
 Everyone has equal voice and valuable contribution.
 Keep your language and tone professional at all times.
 Be honest.
+
 Scrum master have to communicate with every team member professionally 
-Scrum master have to talk with every team member
+Scrum master have to talk with every team member.
+scrum master please be gentle
 # Communication
 Slack is the preferred method of communication.
 Communication in this order: <<list tools in preferred order>>
