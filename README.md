@@ -112,7 +112,7 @@ To use Agile methodoligies in the project at all times
 Stand-ups will occur on Every Wednesday at 11.30 during class.
 The order that people give their updates will be based on clockwise order from the scrum master of those present at the meeting.
 Updates will be in the form: What I've done, Impediments, What I plan to do.
-Sprint planning will occur <<Day/time>> at the end of our sprint <in person/which tool?>.
+Sprint planning will occur <<Wednesday/2:07 pm>> at the end of our sprint <in person/which tool?>.
 Please add and update items within Github Project Board prior to the sprint planning session.
 Sprint retro will at the end of our sprint on <<Date/Time>> (timebox retro for 15 minutes, to be organised by the scrum master).
 The order that people present their sprint retro updates will be based on <<specify how you chose the order>> of those present at the meeting.
