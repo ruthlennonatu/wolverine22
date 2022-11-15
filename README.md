@@ -73,20 +73,7 @@ Jira: <>
 For more information visit our other sections
 
 # Section	Description
-
-This project aims create a pipeline for an online web application.
-The web application will manage Wolverine Fitness all over the world.
-Customer can register on the website with thier personal details along with their age group and their abilities.
-The customer should not be able to edit their information after registration.
-The administrator should have access to customer information and also be able to edit customer information.
-The website should be able to take the details and abilities of the customers and suggest suitable classes for them.
-The web application should display all the avilable groups of fitness classes in Wolverine Fitness.
-The web application should also display the available workshops in Wolverine Fitness.
-The web application should also display the most pupular product (Boxing Classes) in Wolverine Fitness.
-The web application should allow the customers to book fitness classes.
-The system need to take into account the privacy and security requirements when developing the web application
-
-The application will have multiple pages such as a login/registration page, home page, user's page, classes and workshop page and payment page
+In this section each person in the team had to do 10 user storys each about our choosen project then we had to put each storys on planning poker and each person has to vote 1-5 on each user story also each person had to update there section of the readme file 
 
 # Risk Register
 These are the current Risks on the project, re-aligned on a weekly basis
@@ -125,7 +112,7 @@ To use Agile methodoligies in the project at all times
 Stand-ups will occur on Every Wednesday at 11.30 during class.
 The order that people give their updates will be based on clockwise order from the scrum master of those present at the meeting.
 Updates will be in the form: What I've done, Impediments, What I plan to do.
-Sprint planning will occur <<Day/time>> at the end of our sprint <in person/which tool?>.
+Sprint planning will occur <<Wednesday/2:07 pm>> at the end of our sprint <in person/which tool?>.
 Please add and update items within Github Project Board prior to the sprint planning session.
 Sprint retro will at the end of our sprint on <<Date/Time>> (timebox retro for 15 minutes, to be organised by the scrum master).
 The order that people present their sprint retro updates will be based on <<specify how you chose the order>> of those present at the meeting.
@@ -138,7 +125,11 @@ Mobile phones on silent.
 Everyone has equal voice and valuable contribution.
 Keep your language and tone professional at all times.
 Be honest.
-
+Scrum master have to communicate with every team member professionally. 
+Scrum master have to talk with every team member.
+Scrum master please be gentle.
+focus on the designs
+time management
 # Communication
 Slack is the preferred method of communication.
 Communication in this order: <<list tools in preferred order>>
