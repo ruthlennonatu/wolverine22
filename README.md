@@ -129,6 +129,7 @@ Scrum master have to communicate with every team member professionally.
 Scrum master have to talk with every team member.
 Scrum master please be gentle.
 focus on the designs
+time management
 # Communication
 Slack is the preferred method of communication.
 Communication in this order: <<list tools in preferred order>>
