@@ -37,19 +37,14 @@ Week 7	Conor P. McGeoghegan (L00151915) |
 Week 8	Martin Benchi (L00162530) |
 Week 9	Aidan Dullaghan (L00155144) |
 
+
 # Product Owner
 Aidan Dullaghan
 
 # Rockstars
-<<<<<<< HEAD
-<>
-Conor P. McGeoghegan L00151915
-Aidan Dullaghan l00155144
-<>
-=======
 
 | Conor P. McGeoghegan (L00151915) |
->>>>>>> 648863c5106f8ec1de6ca94dfbf2ac7daa292040
+
 
 # Project Deadline
 Refer to BB for deadlines
@@ -80,9 +75,6 @@ Jira: <>
 For more information visit our other sections
 
 # Section	Description
-<<<<<<< HEAD
-in this section each person in the team had to do 10 user storys each about our choosen project then we had to put each storys on planning poker and each person has to vote 1-5 on each user story also each person had to update there section of the readme file  
-=======
 
 This project aims create a pipeline for an online web application.
 The web application will manage Wolverine Fitness all over the world.
@@ -97,7 +89,6 @@ The web application should allow the customers to book fitness classes.
 The system need to take into account the privacy and security requirements when developing the web application
 
 The application will have multiple pages such as a login/registration page, home page, user's page, classes and workshop page and payment page
->>>>>>> 648863c5106f8ec1de6ca94dfbf2ac7daa292040
 
 # Risk Register
 These are the current Risks on the project, re-aligned on a weekly basis
@@ -128,10 +119,6 @@ Datastore for persistence
 # Agile project management methods/principles (jira)
 
 # Social Contract
-To use Agile methodoligies in the project at all times 
-
-
-
 # Meetings
 Stand-ups will occur on Every Wednesday at 11.30 during class.
 The order that people give their updates will be based on clockwise order from the scrum master of those present at the meeting.
