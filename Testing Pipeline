@@ -1,0 +1,4 @@
+Test Stage
+Test Stage includes the execution of automated tests to validate the correctness of code and the behaviour of the software. (Spotbugs)
+This stage prevents easily reproducible bugs from reaching the clients. (spotbugs)
+It is the responsibility of developers to write automated tests. implemented within github

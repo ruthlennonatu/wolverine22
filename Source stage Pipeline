@@ -1,0 +1,7 @@
+Source Stage
+
+
+In the source stage, CI/CD pipeline is triggered by a code repository.
+Any change in the program triggers a notification to the CI/CD tool that runs an equivalent pipeline.
+Other common triggers include user-initiated workflows, 
+automated schedules, and the results of other pipelines
