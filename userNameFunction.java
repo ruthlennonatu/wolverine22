@@ -1,4 +1,5 @@
 // Simple logic for search by userName
+// Needs to have more validation
 
 import java.util.Scanner;  // Import the Scanner class
 

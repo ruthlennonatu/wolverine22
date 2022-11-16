@@ -1,0 +1,9 @@
+
+Build 
+
+This is the second stage of the CI/CD Pipeline in which you merge the source code and its dependencies.
+It is done mainly to build a runnable instance of software that you can potentially ship to the end-user.
+
+Programs that are written in languages like C++, Java, C, or Go language should be compiled. 
+Failure to pass the build stage means there is a fundamental project misconfiguration, 
+so it is better that you address such issue immediately.

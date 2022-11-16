@@ -1,0 +1,10 @@
+#1 As a customer I want to handle personal information so that it isn’t misued
+#2 As a customer I want to understand the potential ethical implications of the pipeline
+#3 As a customer I want to learn how to handle personal information
+#4 As a customer I want to store personal information securely to protect the users
+#5 As a customer I want to set ethical standards for the pipeline
+#6 As a customer I want to ensure accessibility
+#7 As a customer I want to keep users secure
+#8 As a customer I want to understand the gdpr guidelines
+#9 As a customer I want to ensure compliance with GDPR
+#10 As a customer I want to ensure that the database is inaccesible to anyone without admin clearance or higher
