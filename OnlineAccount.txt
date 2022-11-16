@@ -1,0 +1,24 @@
+public addUser(String firstName, String lastName) throws SQLException {
+	// findUser is a previously completed method which i have used here to verify an account doesnt already exist for this person
+		if (findUser(firstName, lastName) = "False"){
+
+		
+		User user = new User(nextID, firstName, lastName);
+		 
+		String query = *ADD* TO database_activity.User WHERE firstname = %?% and lastname = %?%";
+        	PreparedStatement statement = conn.prepareStatement(query);
+        	statement.setString(1, String.valueOf(firstName));        
+        	statement.setString(2, String.valueOf(lastName)); 
+        	runQuery = statement.executeQuery();
+
+		try {
+			
+			add = new  User(Integer.parseInt(runQuery.setString("id")),runQuery.setString("firstname") , runQuery.getString("lastname"));
+
+		    }
+                  catch (SQLException e) 
+                    {}
+		return list;
+}
+		
+	
