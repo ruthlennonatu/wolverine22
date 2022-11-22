@@ -1,0 +1,18 @@
+After researching data protection on dataprotection.ie I had found the main points on how to store and process data legally and safely. 
+
+Lawfulness, fairness, and transparency: Any processing of personal data should be lawful and fair. It should be transparent to individuals that personal data concerning them are collected,
+used, consulted, or otherwise processed and to what extent the personal data are or will be processed.
+
+Purpose Limitation: Personal data should only be collected for specified, explicit, and legitimate purposes and not further processed in a manner that is incompatible with those purposes. 
+In particular, the specific purposes for which personal data are processed should be explicit and legitimate and determined at the time of the collection of the personal data.
+
+Data Minimisation: Processing of personal data must be adequate, relevant, and limited to what is necessary in relation to the purposes for which they are processed. 
+Personal data should be processed only if the purpose of the processing could not reasonably be fulfilled by other means.
+
+Accuracy: Controllers must ensure that personal data are accurate and, where necessary, kept up to date; taking every reasonable step to ensure that personal data that are inaccurate, 
+having regard to the purposes for which they are processed, are erased or rectified without delay.
+
+Storage Limitation: Personal data should only be kept in a form which permits identification of data subjects for as long as is necessary for the purposes for which the personal data are processed.
+
+Accountability: Finally, the controller is responsible for, and must be able to demonstrate, their compliance with all of the above-named Principles of Data Protection. Controllers must take responsibility 
+for their processing of personal data and how they comply with the GDPR, and be able to demonstrate (through appropriate records and measures) their compliance, in particular to the DPC.
