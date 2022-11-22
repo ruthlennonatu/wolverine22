@@ -1,0 +1,9 @@
+When gathering and storing personal data, through registering for different classes and 
+payment details, Strict codes are set through the gdpr guidelines.
+"The term ‘personal data’ is the entryway to the application of the General Data Protection
+Regulation (GDPR). Only if a processing of data concerns personal data, the General Data 
+Protection Regulation applies. The term is defined in Art. 4 (1). Personal data are any 
+information which are related to an identified or identifiable natural person." 
+This is a direct quote from the gdpr guidelines. The laws are clearly defined on paper so 
+that they are easy to follow and attain compliance. https://gdpr-info.eu/ 
+This link will bring you to the documentation surrounding the gdpr guidelines.
