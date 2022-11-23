@@ -20,4 +20,3 @@ public addAdmin(int adminID, int adminName, double adminPassword) throws SQLExce
                     {}
 		return list;
 }
-		

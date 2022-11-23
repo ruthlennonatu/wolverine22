@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>230</x>
+      <y>560</y>
+      <w>210</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>
+Admin
+
+--
+-ID : Char
+-Name of admin : Char
+-Password : Char
+--
++AddClassRecords()
++UpdateClassRecords()
++DeleteClassRecords()
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>220</x>
+      <y>60</y>
+      <w>210</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>
+Wolverine Fitness Class 
+
+--
+-Class Name : Char
+-ClassShow : DateTime
+-Venue : Char
+--
+-UpdateDetails
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>550</x>
+      <y>280</y>
+      <w>210</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>
+Registered User
+
+--
+-ID : Char
+-Name : Char
+-PhoneNumber : Integer
+-Address : Char
+--
++Login()
++Logout()
++ViewClasses
++BookClasses
++MakePayment
++CancelTicket
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>880</x>
+      <y>480</y>
+      <w>260</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>
+Book Class
+
+--
+-NumberOfClassesAvaible : Integer
+-ShowNumber : Integer 
+-Date : DateTime
+-Time : DateTime
+-Venue : Char
+--
++UpdateSeatsAvailable()
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>900</x>
+      <y>140</y>
+      <w>210</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>
+Make Payment 
+
+--
+-ID : Char
+-Amount : Float 
+-TransactionID : Integer
+-UserID : Char
+--
++ConfirmTransaction()
++ReturnMoneyOnCancellation()
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>200</y>
+      <w>90</w>
+      <h>380</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= +1
+m2= +1
+updates &gt;
+
+</panel_attributes>
+    <additional_attributes>10.0;360.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>420</x>
+      <y>120</y>
+      <w>280</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= +1
+m2= +1
+view  &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;240.0;20.0;240.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>750</x>
+      <y>310</y>
+      <w>300</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= +1
+m2= +1
+Books  &gt;</panel_attributes>
+    <additional_attributes>10.0;50.0;260.0;50.0;260.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>750</x>
+      <y>410</y>
+      <w>300</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1= +1
+m2= +1
+Make Payment &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;260.0;20.0;260.0;70.0</additional_attributes>
+  </element>
+</diagram>

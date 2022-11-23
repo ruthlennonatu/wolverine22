@@ -1,0 +1,28 @@
+Security of a DevOps workflow is critical. Continuous integration and continuous delivery
+(CI/CD) pipelines contain information that is extremly important to keep secure from potential
+attackers. Information like code and the database can all be comprimised if an attack occurs.
+
+-----------------------------------------------------------------------------------------------------------
+
+Within DevOps, security is implemented early in the software development lifecycle.
+There is a number of practices that can be followed to maintain a high level of security within the pipeline.
+
+- Container Scanning. Containers are black boxes. Container scanning is the process of evaluating
+the contents of a container image with current vulnerabilities known. This can be automated and 
+whenever an item like a library within a conainer image is found to be a known vulnerability
+it is automatically flagged as insecure. A con to container scanning is that if a library holds a
+vulnerability that is not previously known the tools will fail to flag the issue.
+
+- Access Control Management. The pipeline ideally should be secured with passwords used only by team 
+members only when they specifically need it.
+
+- Static Application Security Testing (SAST). SAST is white box testing that scans the code before
+it is compiled for potential security vulnerabilities. SAST will check for issues in class design, variable 
+and function delclaration, code structuring for the language used for any inconsistancies as well as 
+checking input validity and dataflow.
+
+- Dependancy Management. Scans dependancies and libraries for vulnerabilities and any accidental use 
+of multiple versions of the same dependancy which could lead to inconsistancies.
+
+- Pipeline Monitoring - Monitoring should be held over the several levels of the pipeline: networks, 
+performance, software, hardware etc.
