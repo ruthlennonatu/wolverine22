@@ -5,6 +5,7 @@
 
 'use strict';
 
+/*
 const winston = require('winston');
 const tsFormat = () => (new Date()).toLocaleTimeString();
 
@@ -21,3 +22,4 @@ let logger = winston.createLogger({
 });
 
 module.exports = logger;
+*/
