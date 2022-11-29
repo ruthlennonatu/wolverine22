@@ -1,0 +1,53 @@
+@Override
+public void onActivityResult( int requestCode, int resultCode, Intent data )
+ {
+ //Activity activity = paymentFragment.getActivity();
+ if ( requestCode == ACTIVITY_REQUEST_CODE_CREDITCARD )
+  {
+  if ( data != null && data.hasExtra( CardIOActivity.EXTRA_SCAN_RESULT ) )
+   {
+   CreditCard scanResult = data.getParcelableExtra( CardIOActivity.EXTRA_SCAN_RESULT );
+   if ( !scanResult.isExpiryValid() )
+    {
+    mPaymentFragment.showErrorDialog( R.string.kitesdk_alert_dialog_message_card_expired);
+    return;
+    }
+   PayPalCard card = new PayPalCard();
+   card.setNumber( scanResult.cardNumber );
+   card.setExpireMonth( scanResult.expiryMonth );
+   card.setExpireYear( scanResult.expiryYear );
+   card.setCvv2( scanResult.cvv );
+   card.setCardType( PayPalCard.CardType.getCardType( scanResult.getCardType() ) );
+   if ( card.getCardType() == PayPalCard.CardType.UNSUPPORTED )
+    {
+    mPaymentFragment.showErrorDialog( R.string.kitesdk_alert_dialog_message_card_not_recognised);
+    return;
+    }
+   final ProgressDialog dialog = new ProgressDialog( mContext );
+   dialog.setCancelable( false );
+   dialog.setTitle( R.string.kitesdk_alert_dialog_title_processing);
+   dialog.setMessage( mContext.getString( R.string.kitesdk_alert_dialog_message_processing) );
+   dialog.show();
+   card.storeCard( KiteSDK.getInstance( mContext ), new PayPalCardVaultStorageListener()
+    {
+    @Override
+    public void onStoreSuccess( PayPalCard card )
+     {
+     if ( dialog.isShowing() ) dialog.dismiss();
+     payWithExistingCard( card );
+     }
+    @Override
+    public void onError( PayPalCard card, Exception ex )
+     {
+     if ( dialog.isShowing() ) dialog.dismiss();
+     mPaymentFragment.showErrorDialog( R.string.kitesdk_alert_dialog_message_unable_to_store_card, ex.getMessage() );
+     }
+    } );
+   }
+  else
+   {
+   // card scan cancelled
+   }
+  return;
+  }
+ }
