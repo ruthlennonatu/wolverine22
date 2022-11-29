@@ -1,3 +1,4 @@
+// Secure function to find user - needs tested
 public List<User> findUser(String firstName, String lastName) throws SQLException {
 		
 		List<User> list = new ArrayList<>();
@@ -10,7 +11,7 @@ public List<User> findUser(String firstName, String lastName) throws SQLExceptio
 
 		try {
 			while(resultSet.next())
-			teacher = new  User(Integer.parseInt(resultSet.getString("id")),resultSet.getString("firstname") , resultSet.getString("lastname"));
+			user = new  User(Integer.parseInt(resultSet.getString("id")),resultSet.getString("firstname") , resultSet.getString("lastname"));
 			    
                     list.add(user);
 		    }
