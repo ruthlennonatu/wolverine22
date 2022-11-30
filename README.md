@@ -21,9 +21,7 @@ Estimating Story Points
 Definition of Ready
 Definition of Done
 Preamble
-This is the online repository for the DevOps Assignment.
-
-<>.
+This is the online repository for the DevOps Assignment..
 Our product will be delivered using an Agile methodology that embraces the DevOps culture. Please note that our culture embraces change and these documents are treated as living, breathing artefacts that will be continuously updated.
 
 # Scrum Master
@@ -98,7 +96,7 @@ Datastore for persistence
     automated creation and deployments
     integrated and automated pipeline (commit -> test -> deploy)
 # Github version control:
-    branches used
+    branches used Main, Dev, Breakout
     version/release management
 
 # Agile project management methods/principles (jira)
