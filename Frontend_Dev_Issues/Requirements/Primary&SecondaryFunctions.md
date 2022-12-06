@@ -1,8 +1,10 @@
 
 
-###########################################################
+#################################
 
 # Primary Functional Requirements
+#################################
+
 1. The web-application should allow new users to sign-up/sign-in account (membership)
     This means the web-application should be dynamic
 
