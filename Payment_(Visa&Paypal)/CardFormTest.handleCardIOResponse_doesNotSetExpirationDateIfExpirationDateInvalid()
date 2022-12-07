@@ -1,0 +1,17 @@
+@Test
+public void handleCardIOResponse_doesNotSetExpirationDateIfExpirationDateInvalid() 
+{
+  mCardForm.cardRequired(true)
+      .expirationRequired(true)
+      .cvvRequired(false)
+      .cardholderName(CardForm.FIELD_DISABLED)
+      .postalCodeRequired(false)
+      .mobileNumberRequired(false)
+      .mobileNumberExplanation("Make sure SMS is supported")
+      .setup(mActivity);
+  Intent intent = new Intent()
+      .putExtra(CardIOActivity.EXTRA_SCAN_RESULT, new CreditCard(VISA, 12, 2000, "", "", ""));
+  mCardForm.handleCardIOResponse(Activity.RESULT_OK, intent);
+  assertEquals("", ((EditText) mActivity.findViewById(R.id.bt_card_form_expiration)).getText().toString());
+  assertTrue(mCardForm.findViewById(R.id.bt_card_form_expiration).hasFocus());
+}

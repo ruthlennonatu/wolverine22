@@ -1,0 +1,7 @@
+class ConfirmEmailRegistration{
+    public static void main(String[] args){
+        System.out.println("You successfully registered with the email $emailVariable");
+        System.out.println("Thank you for supporting Groot's Global Green Initiative!");
+        System.out.println("You can find further information about us at $documentationLink");
+    }
+}
