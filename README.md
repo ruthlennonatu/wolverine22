@@ -63,8 +63,8 @@ In this reaserch we are developing a framework for designing for a Fitness onlin
 For this project we will be using JavaScript language for the coding part. 
 
 # Useful Links
-Project Slack:  https://app.slack.com/client/T0419S2HV9B/C046JJADCHY 
-GitHub:  https://github.com/ruthlennonatu/wolverine22 
+Project Slack:  https://app.slack.com/client/T0419S2HV9B/C046JJADCHY  |
+GitHub:  https://github.com/ruthlennonatu/wolverine22  |
 Jira: https://wolverine22.atlassian.net
 
 # More Information
