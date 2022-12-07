@@ -1,0 +1,76 @@
+JavaDocs is a tool used for auto generating documents in the Java language in a HTML format. JavaDocs generates API documentation. JavaDocs are usually created though the use of the command line, but tools and extensions are available online for popular IDEs like VSCode, IntelliJ etc
+Many resources can be found online in regard to how comments work in JavaDocs. Below are a few examples that may help you get up to speed with the different style of commenting
+---> https://www.geeksforgeeks.org/what-is-javadoc-tool-and-how-to-use-it 
+---> https://www.oracle.com/java/technologies/javase/javadoc-tool.html
+---> https://www.baeldung.com/javadoc 
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+You may as java language programmers already know to the standard way of commenting 
+
+//Generic Java comment on a single line
+
+/*
+*Java comment on multiple lines
+*/
+
+A JavaDoc comment looks slightly different
+
+/**
+ * JavaDoc comment
+ */
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+JavaDoc comments are usually placed above any class, field or method being documented.
+
+- Class level example
+
+/**
+* Hero is the main entity we'll be using to . . .
+* 
+* Please see the {@link com.baeldung.javadoc.Person} class for true identity
+* @author Captain America
+* 
+*/
+public class SuperHero extends Person {
+    // fields and methods
+}
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+- Field level example
+
+/**
+ * The public name of a hero that is common knowledge
+ */
+private String heroName;
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+- Method level example
+
+/**
+ * <p>This is a simple description of the method. . .
+ * <a href="http://www.supermanisthegreatest.com">Superman!</a>
+ * </p>
+ * @param incomingDamage the amount of incoming damage
+ * @return the amount of health hero has after attack
+ * @see <a href="http://www.link_to_jira/HERO-402">HERO-402</a>
+ * @since 1.0
+ */
+public int successfullyAttacked(int incomingDamage) {
+    // do things
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+Useful block tags (@) are identified below. More examples can be found within the resources mentioned earlier.
+
+@author � defines an author
+@link � provides an inline link to a referenced part of the source code
+@return � defines what the method returns
+@param � any parameters used in the method or the input they take
+@see � shows execptions thrown, if any
+@since � defines the version being used
