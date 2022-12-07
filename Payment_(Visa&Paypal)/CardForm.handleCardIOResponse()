@@ -1,0 +1,22 @@
+@SuppressLint("DefaultLocale")
+public void handleCardIOResponse(int resultCode, Intent data) 
+{
+  if (resultCode == Activity.RESULT_CANCELED || resultCode == Activity.RESULT_OK) 
+  {
+    mCardScanningFragment = null;
+  }
+  if (data != null && data.hasExtra(CardIOActivity.EXTRA_SCAN_RESULT)) 
+  {
+    CreditCard scanResult = data.getParcelableExtra(CardIOActivity.EXTRA_SCAN_RESULT);
+    if (mCardNumberRequired) 
+    {
+      mCardNumber.setText(scanResult.cardNumber);
+      mCardNumber.focusNextView();
+    }
+    if (scanResult.isExpiryValid() && mExpirationRequired) 
+    {
+      mExpiration.setText(String.format("%02d%d", scanResult.expiryMonth, scanResult.expiryYear));
+      mExpiration.focusNextView();
+    }
+  }
+}
