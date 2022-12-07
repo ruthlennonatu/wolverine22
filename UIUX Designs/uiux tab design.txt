@@ -1,1 +1,3 @@
 tab design of payments screen
+
+user personal info, education info, fittness info tab details in each tab
