@@ -1,0 +1,69 @@
+package creditinheritance;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class CreditCardTest1 {
+
+	@BeforeEach
+	void setUp() throws Exception {
+	}
+
+	@AfterEach
+	void tearDown() throws Exception {
+	}
+
+	@Test
+	void testCreditCard() {
+		CreditCard card = new CreditCard("abc", 0.3, 100);
+		// System.out.println(card);
+		assertEquals(card.toString(), " abc 0.3 0.0 100.0");
+		// fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetCompany() {
+		CreditCard card = new CreditCard("abc", 0.3, 100);
+		// System.out.println(card);
+		assertEquals(card.getCompany(), "abc");
+		// fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetInterest() {
+		CreditCard card = new CreditCard("abc", 0.3, 100);
+		// System.out.println(card);
+		assertEquals(card.getInterest(), 0.3, 0.001);
+//		fail("Not yet implemented");
+	}
+
+	@Test
+	void testGetBalance() {
+		CreditCard card = new CreditCard("abc", 0.3, 100);
+		// System.out.println(card);
+		assertEquals(card.getBalance(), 100, 0.001);
+		// fail("Not yet implemented");
+	}
+
+	@Test
+	void testCalculateInterest() {
+		CreditCard card = new CreditCard("abc", 0.3, 100);
+		card.calculateInterest();
+		// System.out.println(card);
+		assertEquals(card.getBalance(), 130, 0.001);
+		// fail("Not yet implemented");
+	}
+
+	@Test
+	void testMakePayment() {
+		CreditCard card = new CreditCard("abc", 0.3, 100);
+		card.makePayment(50);
+		// System.out.println(card);
+		assertEquals(card.toString(), " abc 0.3 50.0 50.0");
+		// fail("Not yet implemented");
+	}
+
+}
