@@ -16,3 +16,13 @@ One example is publishing packages to a deployment bucket using the  REST API.
 Another is using cURL to download a package from the web to be installed.
 
  
+# Useing cURL in your pipeline to communicate with the Bintray REST API. 
+ 
+ It is common for a build to fail because of an external service that is down. One great way to use REST APIs in your pipeline is to check that these services are operational before continuing the build. This provides you with an opportunity to craft a custom message for this particular method of failure and eliminates any need for a developer to spend time debugging the fail.
+
+ Set up the Get Bintray API status step of the check job to run first and the build job is now dependent on it. 
+ 
+ Bintray API checks the status and then uses logic to fail and exit our application if the status is anything other than “All Systems Operational.” 
+ 
+ This process can limit the costs as well as save time for your engineers because if Bintray is unavailable, the job doesn’t sit waiting for cURL to timeout and there is no need to spend much time investigating the fail.
+
