@@ -1,0 +1,13 @@
+For the Deployment of the SQL Server as a back-end Developer I must understand the process for Deploying the teams Server:
+
+Here are the steps for the pipeline of our Database:
+
+First we must focus on the Continious Intergration which includes
+
+This involves first Building the code which means automating the integration of code changes into a single software project.
+Then automating the testing stages so that rapid delivery of the pipeline can be made while also providing acceptable standards of quality.
+
+Then we must focus on the Continious Delivery which includes
+
+The staging part, which is where the application code is tested within a production stack in order to run more functional tests.
+Then as a team we must focus on the demand, peformance and observe how our application is being used and ensuring we take corrective action to ensure it runs as smoothly as possible.
