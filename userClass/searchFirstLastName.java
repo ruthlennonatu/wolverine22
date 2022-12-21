@@ -3,7 +3,7 @@ public List<User> findUser(String firstName, String lastName) throws SQLExceptio
 		
 		List<User> list = new ArrayList<>();
 		User user = new User(0, null, null);		
-		String query = "SELECT * FROM database_activity.User WHERE        firstname like %?% and lastname like %?%";
+		String query = "SELECT * FROM database_activity.User WHERE firstName like firstName and lastName like lastName";  
         PreparedStatement statement = conn.prepareStatement(query);
         statement.setString(1, String.valueOf(firstName));//       setString(1    
         statement.setString(2, String.valueOf(lastName)); //       setString(2
