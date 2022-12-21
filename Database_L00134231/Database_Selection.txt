@@ -1,0 +1,16 @@
+As a team at the start of the project we discussed which Database Tools would be best to use in order to build the pipeline:
+
+The team has various experience with the following:
+SQLite
+MySQL
+MongoDB
+PostgreSQL
+
+
+After a bit of discussion, we decided to use and focus on using mySQL as it has many advantages:
+
+- Efficient 
+- Provides scalability if the business was to grow.
+- Provides high performance with optimal speed to store information.
+
+
