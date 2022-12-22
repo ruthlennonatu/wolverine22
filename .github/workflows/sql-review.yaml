@@ -1,0 +1,14 @@
+#on: [pull_request]
+#
+#jobs:
+#  sql-review:
+#    runs-on: ubuntu-latest
+#    name: SQL_Code_Review
+#    steps:
+#      - uses: actions/checkout@v3 #Checkout Version
+#      - name: Check SQL
+#        uses: bytebase/sql-review-action@dev #Action is done on the dev branch
+#        with:
+#          database-type: MYSQL # Type of Database being used.
+#          file-pattern: ^github-action-test/.*\.sql$ # Initiate GithubAction Test
+
